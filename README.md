@@ -67,7 +67,7 @@ Hence, the complexity of implemented algorithm is O(limit).
 
 The following is the table for the processes
 
-**Process ID	Arrival_Time	Burst_Time	Completion_Time	Turnaround_Time	Waiting_Time	Response_Time
+**Process ID	Arrival_Time	Burst_Time	Completion_Time	Turnaround_Time	Waiting_Time	Response_Time**
 
 **P1       	          0	           5	             12	            12	          7	             0**
 
