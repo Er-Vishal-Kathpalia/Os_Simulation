@@ -7,7 +7,7 @@ process to processor for execution. Compute the total time for which processes w
 waiting for the processor. Take the input for CPU burst, arrival time and time quantum from the
 user.
 
-# FOR EVALUATION, 
+FOR EVALUATION, 
 FILE NAMED final_program.c has to be checked.
 
 # Description
@@ -62,18 +62,21 @@ Hence, the complexity of implemented algorithm is O(limit).
 
 # Test Case
 **Example.** Assume that there are 4 Processes P1, P2, P3, P4. The arrival time of the Processes are 0, 1, 2, 4 respectively and the Burst time of the processes are 5, 4, 2, 1 respectively. Assume the time Quantum of 2units. Calculate the Average waiting time and Average turnaround time of given processes.
+
 **Explanation:** Firstly P1 process is taken from the ready queue to running queue and executed for 2 units. Then process P2 from ready queue and similarly process P3 and then P4. As P3 and P4 has 2, 1 burst time so they are successfully executed in first round only. But Process P1 and P2 left for P1 = 5 – 2 = 3 time slice and P2 = 4 – 2 = 2 time slice so firstly P1 is picked from ready queue and then Process P2 from ready queue in second round. In third round only process P1 is left for P1 = 3 – 2 = 1 time slice. So at last Process P1 is executed successfully.
+
 The following is the table for the processes
 **Process ID	Arrival_Time	Burst_Time	Completion_Time	Turnaround_Time	Waiting_Time	Response_Time
     P1	        0	           5	             12	            12	          7	             0
-    P2	        1          	 4	             11	            10	          6	             1
+    P2	        1          	   4	             11	            10	          6	             1
     P3	        2	           2	              6	             4	          2	             2
-    P4	        4	           1	              7	             3           	2              2**
+    P4	        4	           1	              7	             3            2              2**
 Average waiting time = (7+6+2+2)/4 = 4.25
 Average turnaround time = (12+10+4+3)/4 = 7.25
 
 # Output of the Program
 To get output Run **final_program.c** has to run.
+
 Execute and run the file.
 
 
