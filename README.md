@@ -67,10 +67,14 @@ Hence, the complexity of implemented algorithm is O(limit).
 
 The following is the table for the processes
 **Process ID	Arrival_Time	Burst_Time	Completion_Time	Turnaround_Time	Waiting_Time	Response_Time
-    P1	        0	           5	             12	            12	          7	             0
-    P2	        1          	   4	             11	            10	          6	             1
-    P3	        2	           2	              6	             4	          2	             2
-    P4	        4	           1	              7	             3            2              2**
+
+**P1       	        0	           5	             12	            12	          7	             0**
+
+**P2	                1          	   4	             11	            10	          6	             1**
+
+**P3	                2	           2	              6	             4	          2	             2**
+
+**P4	                4	           1	              7	             3            2              2**
 Average waiting time = (7+6+2+2)/4 = 4.25
 Average turnaround time = (12+10+4+3)/4 = 7.25
 
