@@ -85,4 +85,5 @@ To get output Run **final_program.c** has to run.
 
 Execute and run the file.
 
+![Output of the program](https://github.com/Er-Vishal-Kathpalia/Os_Simulation/blob/master/Output.png)
 
